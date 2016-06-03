@@ -9,11 +9,15 @@ package com.klaw.game;
  *
  * @author LAB-315
  */
-public class Ecuation {
-    private int left_operator;
-    private int right_operator;
-    private int result;
+interface BinaryEcuation {
     
+    public enum Operator{
+            SUM,SUB,MULT,DIV
+    }
     
-            
+    public int getLeftOperand();
+    public int getRightOperand();
+    public Operator getOperator();
+    public int getResult();
+        
 }

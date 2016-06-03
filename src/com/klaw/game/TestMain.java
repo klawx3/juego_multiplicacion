@@ -9,6 +9,14 @@ package com.klaw.game;
  *
  * @author LAB-315
  */
-public class Problem {
+public class TestMain {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        BinaryEcuation mult = new MultEcuation(1,10,10,20);
+        System.out.println(mult.toString());
+    }
     
 }
