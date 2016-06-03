@@ -5,6 +5,9 @@
  */
 package com.klaw.game;
 
+import com.klaw.game.BinaryEcuation.Operator;
+import com.klaw.game.Match.Dificulty;
+
 /**
  *
  * @author LAB-315
@@ -15,8 +18,14 @@ public class TestMain {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        BinaryEcuation mult = new MultEcuation(1,10,10,20);
-        System.out.println(mult.toString());
+        Match match = new Match(Operator.MULT, Dificulty.HARD);
+        match.initMatch(5);
+        
+        while(match.hasNext()){
+            MultEcuation ecuation = (MultEcuation) match.next();
+            System.out.println(ecuation);
+        }
+        
     }
     
 }

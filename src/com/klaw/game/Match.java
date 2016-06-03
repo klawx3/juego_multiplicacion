@@ -29,16 +29,17 @@ public class Match implements Iterator<BinaryEcuation> {
         inGame = false;
         ecuations = new ArrayList<>();
         this.dificulty = dificulty;
+        this.operation = operation;
     }
 
     public void initMatch(int ecuations_length) {
         for (int i = 0; i < ecuations_length; i++) {
             BinaryEcuation ecuation = null;
             switch(operation){
-                case DIV:
+                case MULT:
                     ecuation = getMultEcuation();
                     break;
-                case MULT:
+                case DIV:
                     
                 break;
                 
