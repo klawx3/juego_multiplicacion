@@ -10,7 +10,7 @@ package com.klaw.game;
  * @author LAB-315
  */
 interface BinaryEcuation {
-    
+    //comment
     public enum Operator{
             SUM,SUB,MULT,DIV
     }
