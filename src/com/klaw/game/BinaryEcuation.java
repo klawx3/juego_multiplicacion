@@ -9,8 +9,9 @@ package com.klaw.game;
  *
  * @author LAB-315
  */
-interface BinaryEcuation {
-    //comment
+//Clase declarada como publica para funcionar en la interfaz grafica
+public interface BinaryEcuation {
+ 
     public enum Operator{
             SUM,SUB,MULT,DIV
     }
