@@ -10,6 +10,7 @@ package com.klaw.game;
  * @author LAB-315
  */
 //Clase declarada como publica para funcionar en la interfaz grafica
+//
 public interface BinaryEcuation {
  
     public enum Operator{
