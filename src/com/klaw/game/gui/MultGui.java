@@ -18,7 +18,7 @@ import javax.swing.JOptionPane;
  * @author Black
  */
 public final class MultGui extends javax.swing.JFrame {
-
+//sdasda
     private JFrame frame;
     private Match match;
     private MultEcuation ecuation;
